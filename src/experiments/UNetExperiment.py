@@ -210,8 +210,8 @@ class UNetExperiment:
         a dictionary that could later be persisted as JSON
         """
         print("Testing...")
-        model_dir="C://Users//ustsa//AIForhealth//C3Project//nd320-c3-3d-imaging-starter-master//section2//out//model.pth"        
-        #model_dir="C://Data"        
+           
+        model_dir="C://Data"        
         self.load_model_parameters(path=model_dir)
         self.model.eval()
 
